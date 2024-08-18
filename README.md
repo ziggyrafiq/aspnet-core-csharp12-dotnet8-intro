@@ -1,7 +1,7 @@
 # A brief introduction to ASP.NET Core using C#12 and .NET 8 (aspnet-core-csharp12-dotnet8-intro)
  The following code repository will show you how to build web APIs with ASP.NET Core using C# 12 and .NET 8 by Ziggy Rafiq
  
- **[Article published on C# Corner click here to read this article](https://www.c-sharpcorner.com/article/styling-in-react-with-styled-components-and-typescript/)**
+ **[Article published on C# Corner click here to read this article](https://www.c-sharpcorner.com/article/a-brief-introduction-to-asp-net-core-using-c-sharp12-and-net-8/)**
 
 ## Installation
 Clone this repository:
