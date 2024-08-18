@@ -1,0 +1,40 @@
+### Get all books
+GET http://localhost:5082/api/books
+Accept: application/json
+
+###
+
+### Get a single book by id
+GET http://localhost:5082/api/books/1
+Accept: application/json
+
+###
+
+### Create a new book
+POST http://localhost:5082/api/books
+Content-Type: application/json
+
+{
+    "title": "New Book Title",
+    "author": "Author Name",
+    "publishedDate": "2024-08-18T00:00:00Z"
+}
+
+###
+
+### Update an existing book
+PUT http://localhost:5082/api/books/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "title": "Updated Book Title",
+    "author": "Updated Author Name",
+    "publishedDate": "2024-08-18T00:00:00Z"
+}
+
+###
+
+### Delete a book by id
+DELETE http://localhost:5082/api/books/1
+Accept: application/json
